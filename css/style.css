@@ -1,0 +1,149 @@
+/*NAVBAR*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+#navbar {
+    padding-top: 40px;
+
+}
+
+#navbar input {
+    margin-left: 200px;
+    height: 50px;
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+#navbar input:hover {
+
+    padding-left: 20px;
+}
+
+#navbar i {
+    margin-left: -50px;
+
+
+
+}
+
+
+#navbar li {
+    display: inline-block;
+
+}
+
+header {
+    background-image: url(../img/fon-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.box-1 {
+    float: left;
+}
+
+
+
+.box-2 {
+    text-align: center;
+}
+
+
+.container-1 {
+    color: #fff;
+
+
+}
+
+.container-1 select {
+    float: right;
+    margin-top: -20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: green;
+    outline: none;
+}
+
+
+.container-1 li {
+    /* float: left; */
+    list-style: none;
+    display: inline-block;
+}
+
+
+/* .container-2 {
+    margin-top: 100px;
+    display: inline-block;
+    text-decoration: none;
+} */
+
+
+
+.container-3 {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+
+.container-3 li {
+    float: left;
+    list-style: none;
+    padding: 10px 35px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+
+}
+
+.container-3 li a {
+    color: black;
+    cursor: pointer;
+
+}
+
+.container-3 li a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.container-4 {
+    color: #fff;
+}
+
+.container-4 button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0px;
+
+}
+
+.container-4 button:hover {
+    color: yellow;
+    background-color: green;
+    text-decoration: none;
+    border: 0px;
+}
