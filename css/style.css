@@ -14,16 +14,33 @@ body {
 .container {
     max-width: 1400px;
     margin: auto;
+
 }
 
 #navbar {
     padding-top: 40px;
+}
 
+#navbar h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+#navbar p {
+    font-size: 30px;
+    font-style: italic;
+    float: right;
+    color: #fff;
+}
+
+#navbar h1 a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #navbar input {
     margin-left: 200px;
-    height: 50px;
+    height: 60px;
     width: 500px;
     border-radius: 50px;
     border: none;
@@ -33,21 +50,33 @@ body {
 }
 
 #navbar input:hover {
-
     padding-left: 20px;
 }
 
 #navbar i {
     margin-left: -50px;
+}
 
-
-
+#navbar .navbar-2 {
+    margin-left: 10px;
 }
 
 
 #navbar li {
     display: inline-block;
+}
 
+#navbar select {
+    float: right;
+    margin-top: 20px;
+    padding: 25px 1px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: green;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
 }
 
 header {
@@ -55,7 +84,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 750px;
     padding-top: 20px;
 }
 
@@ -63,17 +92,16 @@ header {
     float: left;
 }
 
-
-
 .box-2 {
     text-align: center;
 }
 
+.box-2 a {
+    color: #fff;
+}
 
 .container-1 {
     color: #fff;
-
-
 }
 
 .container-1 select {
@@ -83,6 +111,7 @@ header {
     border-radius: 50px;
     color: green;
     outline: none;
+    font-size: 20px;
 }
 
 
@@ -90,6 +119,8 @@ header {
     /* float: left; */
     list-style: none;
     display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 
@@ -98,8 +129,6 @@ header {
     display: inline-block;
     text-decoration: none;
 } */
-
-
 
 .container-3 {
     display: inline-block;
@@ -114,14 +143,11 @@ header {
     padding: 10px 35px;
     padding-top: 20px;
     padding-bottom: 15px;
-
-
 }
 
 .container-3 li a {
     color: black;
     cursor: pointer;
-
 }
 
 .container-3 li a:hover {
@@ -131,13 +157,25 @@ header {
 
 .container-4 {
     color: #fff;
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.container-4 h3 {
+    padding-top: 20px;
 }
 
 .container-4 button {
-    padding: 20px 40px;
+    padding: 30px 60px;
     border-radius: 50px;
     cursor: pointer;
     border: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(236, 158, 12);
 
 }
 
@@ -146,4 +184,48 @@ header {
     background-color: green;
     text-decoration: none;
     border: 0px;
+}
+
+/*XIZMATLAR*/
+
+.block {
+margin-top: 100px;
+margin-left: 40px;
+margin-right: 40px;
+
+
+}
+
+.block-1 {
+width: 800px;
+height: 600px;
+border: 1px solid rgb(226, 226, 226);
+padding: 40px 130px;
+margin: 30px 10px;
+border-radius: 4%;
+box-shadow: 8px 5px 20px 4px rgba(93, 109, 122, 0.36);
+
+}
+
+.block .block-1 a {
+color: green;
+}
+
+.block .block-1 h1 {
+    color: black;
+    
+}
+
+.block i {
+    color: green;
+}
+
+
+
+.red {
+    float: left;
+}
+
+.blue {
+    float: right;
 }
