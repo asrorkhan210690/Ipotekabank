@@ -283,13 +283,107 @@ header {
 }
 
 #Yangiliklar .link {
-float: right;
+    float: right;
 }
 
-#Yangiliklar span {
+#Yangiliklar .news {
     display: inline;
     float: left;
+color: red;
+font-size: 20px;
+    }
+
+    .one {
+margin-top: 90px;
+    }
+
+
+    /*Kurs*/
+
+    #kurs {
+    background-color: #fff;
+    padding-top: 130px;
+    height: 1000px;
 }
 
+.money-kurs {
+    width: 1900px;
+    height: 700px;
+    background-color: rgb(220, 238, 250);
+    border-radius: 30px;
+    float: left;
+    margin: 120px 30px;
+}
 
+.money-1 {
+    border-right: 1px solid rgb(201, 200, 200);
+    float: left;
+    padding-right: 200px;
+}
 
+.money-1 h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.money-1 h4 {
+    font-size: 23px;
+    line-height: 70px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+table {
+    font-size: 30px;
+    border: none;
+}
+
+table td {
+    padding: 40px 40px;
+    border: none;
+}
+
+.money-1 a {
+    margin-left: 600px;
+    font-size: 30px;
+    color: green;
+
+}
+
+.money-2 {
+    /* border-left: 1px solid rgb(201, 200, 200); */
+    float: left;
+    
+}
+
+.kurs-3 {
+    margin-left: 400px;
+    margin-top: -105px;
+}
+
+.kurs-3 li {
+    display: inline-block;
+    
+}
+
+.money-2 h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.kurs-3 select {
+    font-size: 40px;
+    color: green;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.money-2 h4 {
+    font-size: 23px;
+    line-height: 200px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
