@@ -353,8 +353,7 @@ table td {
 
 .money-2 {
     /* border-left: 1px solid rgb(201, 200, 200); */
-    float: left;
-    
+    float: left;    
 }
 
 .kurs-3 {
@@ -386,4 +385,112 @@ table td {
     line-height: 200px;
     margin-left: 40px;
     margin-bottom: 100px;
+}
+
+.link2:hover {
+    text-decoration: none;
+}
+
+.left-s {
+    float: left;
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.left-s2 {
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left-s3 {
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.right-s {
+    float: right;
+    padding-right: 300px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.right-s3 {
+    float: right;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+hr {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+}
+
+.link3 {
+    float: right;
+    font-size: 30px;
+    color: green;
+margin-top: -40px;
+}
+
+.link3:hover {
+    text-decoration: none;
+}
+
+.money-2 a i {
+    color: rgb(199, 197, 197);
+    }
+
+
+/*IPOTEKA RETAIL*/
+
+#Retail {
+
+    background-image: url(../img/fon-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 120%;
+    display: inline-block;
+    height: 600px;
+}
+
+.Retail-MI {
+    background-color: #fff;
+opacity: 0.4;
+color: black;
+height: 800px;
+}
+
+.Retail-MI h1 {
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+}
+
+.Retail-MI span {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.Retail-MI i {
+    padding-left: 40px;
+    line-height: 40px;
+    color: green;
+}
+
+.MI-left {
+    float: left;
+}
+
+.MI-right {
+    float: right;
+    padding-right: 100px;
 }
