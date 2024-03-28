@@ -270,6 +270,10 @@ header {
     margin: 120px 30px;
 }
 
+.com {
+
+}
+
 .book p {
     padding: 10px 15px;
     font-size: 22px;
@@ -289,25 +293,26 @@ header {
 #Yangiliklar .news {
     display: inline;
     float: left;
-color: red;
-font-size: 20px;
-    }
+    color: red;
+    font-size: 20px;
+}
 
-    .one {
-margin-top: 90px;
-    }
+.one {
+    margin-top: 90px;
+}
 
 
-    /*Kurs*/
+/*Kurs*/
 
-    #kurs {
+#kurs {
     background-color: #fff;
     padding-top: 130px;
     height: 1000px;
+    margin-right: 330px;
 }
 
 .money-kurs {
-    width: 1900px;
+    width: 1700px;
     height: 700px;
     background-color: rgb(220, 238, 250);
     border-radius: 30px;
@@ -318,7 +323,7 @@ margin-top: 90px;
 .money-1 {
     border-right: 1px solid rgb(201, 200, 200);
     float: left;
-    padding-right: 200px;
+    padding-right: 130px;
 }
 
 .money-1 h2 {
@@ -353,7 +358,7 @@ table td {
 
 .money-2 {
     /* border-left: 1px solid rgb(201, 200, 200); */
-    float: left;    
+    float: left;
 }
 
 .kurs-3 {
@@ -363,7 +368,7 @@ table td {
 
 .kurs-3 li {
     display: inline-block;
-    
+
 }
 
 .money-2 h2 {
@@ -428,14 +433,14 @@ hr {
     margin-left: 40px;
     margin-top: 60px;
     margin-bottom: 80px;
-    
+
 }
 
 .link3 {
     float: right;
     font-size: 30px;
     color: green;
-margin-top: -40px;
+    margin-top: -40px;
 }
 
 .link3:hover {
@@ -444,7 +449,7 @@ margin-top: -40px;
 
 .money-2 a i {
     color: rgb(199, 197, 197);
-    }
+}
 
 
 /*IPOTEKA RETAIL*/
@@ -455,16 +460,16 @@ margin-top: -40px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 120%;
+    width: 100%;
     display: inline-block;
-    height: 600px;
+    height: 700px;
 }
 
 .Retail-MI {
     background-color: #fff;
-opacity: 0.4;
-color: black;
-height: 800px;
+    opacity: 0.4;
+    color: black;
+    height: 800px;
 }
 
 .Retail-MI h1 {
@@ -480,12 +485,17 @@ height: 800px;
     line-height: 40px;
 }
 
-.Retail-MI i {
+.MI-left i {
     padding-left: 40px;
     line-height: 40px;
     color: green;
 }
 
+.MI-right i {
+    padding-left: 40px;
+    line-height: 40px;
+    color: green;
+}
 .MI-left {
     float: left;
 }
@@ -493,4 +503,87 @@ height: 800px;
 .MI-right {
     float: right;
     padding-right: 100px;
+}
+
+.MI-button button {
+
+    margin-left: 40px;
+    width: 300px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    padding: 0px 5px;
+    cursor: pointer;
+   
+
+}
+
+.MI-button li {
+    display: inline-block;
+    opacity: 2.2;
+}
+
+.MI-button {
+    margin-top: 350px;
+    
+
+
+}
+
+.MI-button li button i {
+margin-left: -10px;
+}
+
+
+/*Murojaatlar*/
+
+#Murojaatlar {
+    background-color: #fff;
+    padding-top: 100px;
+    height: 1000px;
+}
+
+.M-left {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(207, 250, 217);
+    border-radius: 30px;
+    float: left;
+   margin-top: 100px;
+   margin-left: -10px;
+   display: inline;
+   text-align: center;
+    padding-top: 100px;
+    line-height: 30px;
+}
+
+.M-right {
+    width: 70%;
+    height: 500px;
+    background-color: rgb(207, 250, 217);
+    border-radius: 30px;
+    float: right;
+    /* margin: 0px 30px; */
+    display: inline;
+    margin-top: 100px;
+}
+
+
+.M-left a {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: none;
+    /* margin-top: 800px; */
+
+
+}
+
+.M-left a:hover {
+    text-decoration: none;
+    background-color: rgb(112, 179, 12);
 }
