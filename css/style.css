@@ -270,10 +270,6 @@ header {
     margin: 120px 30px;
 }
 
-.com {
-
-}
-
 .book p {
     padding: 10px 15px;
     font-size: 22px;
@@ -496,6 +492,7 @@ hr {
     line-height: 40px;
     color: green;
 }
+
 .MI-left {
     float: left;
 }
@@ -516,7 +513,7 @@ hr {
     color: #fff;
     padding: 0px 5px;
     cursor: pointer;
-   
+
 
 }
 
@@ -527,13 +524,13 @@ hr {
 
 .MI-button {
     margin-top: 350px;
-    
+
 
 
 }
 
 .MI-button li button i {
-margin-left: -10px;
+    margin-left: -10px;
 }
 
 
@@ -542,7 +539,7 @@ margin-left: -10px;
 #Murojaatlar {
     background-color: #fff;
     padding-top: 100px;
-    height: 1000px;
+    height: 800px;
 }
 
 .M-left {
@@ -551,10 +548,10 @@ margin-left: -10px;
     background-color: rgb(207, 250, 217);
     border-radius: 30px;
     float: left;
-   margin-top: 100px;
-   margin-left: -10px;
-   display: inline;
-   text-align: center;
+    margin-top: 100px;
+    margin-left: -10px;
+    display: inline;
+    text-align: center;
     padding-top: 100px;
     line-height: 30px;
 }
@@ -587,3 +584,70 @@ margin-left: -10px;
     text-decoration: none;
     background-color: rgb(112, 179, 12);
 }
+
+.M-right {
+    background-image:url(../img/free-icon-pie-chart-893220\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: 20px 100px;
+}
+
+
+.M-right h2 {
+padding: 40px 40px;
+}
+
+/* .M-right img {
+    padding-left: 40px;
+    display: inline;
+} */
+
+.M-right h4 {
+    padding-left: 300px;
+    padding-top: -200px;
+    padding-bottom: 30px;
+    /* display: inline-block; */
+}
+
+.M-right p {
+    padding-left: 300px;
+    padding-top: -200px;
+    line-height: 50px;
+    /* display: inline-block; */
+}
+
+.M-right span {
+    padding-left: 10px;
+    padding-top: -200px;
+    line-height: 50px;
+}
+
+.one {
+    color: blue;
+    font-weight: bold;
+}
+
+/*Foydali havolalar*/
+
+#Foydali-havolalar {
+background-color: rgb(228, 222, 222);
+width: 100%;
+height: 300px;
+}
+
+#Foydali-havolalar h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.portal {
+    text-align: center;
+float: left;
+margin: 70px 40px;
+}
+
+.portal img {
+font-size: 50px;
+}
+
